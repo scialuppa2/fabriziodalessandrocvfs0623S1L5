@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@400;700 & display=swap');
+/* Your styles here */
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 40px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 1.65;
+    color: #393d41;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3 ;
+    line-height: 1.5;
+    padding: 5%;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 1em;
+    margin-top: 8%;
+}
+/* Header */
+header{
+    background-color: black;
+    text-align: center;
+}
+#logo{
+    padding: 5%;
+}
+/* Introduzione al corso */
+.start{
+    text-align: center;
+    padding: 5%;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+button{
+    color: white;
+    font-size: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #f04c2f ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4% 8%;
+    margin: 10%;
+}
+/* Sezioni centrali */
+.work{
+    text-align: center;
+    padding: 15% 5%;
+}
+.work img{
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.study{
+    text-align: center;
+}
+.study div{
+    border: 1px solid rgba(171, 189, 194, 0.938);
+    border-radius: 10px;
+    margin: 10% 5%;
+}
+
+.study img{
+    width: 100%;
+}
+
+.study p{
+    margin-top: 0%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+}
+/* Sezione citazione */
+.cite{
+    background-color: #e22d0e;
+    text-align: center;
+    vertical-align: auto;
+    padding: 10% 5%;
+    margin-bottom: 15%;
+    line-height: 0.8em;
+    letter-spacing: 1.5px;
+}
+cite{
+    display: inline-block;
+    font-style: italic;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    padding-bottom: 10%;
+}
+
+.cite span{
+    display: inline-block;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 10% 5%;
+}
+#founder{
+    font-size: 1.2em;
+}
+#ceo{
+    font-size: 0.7em;
+    padding-top: 5%;
+}
+/* Footer contatti */
+footer{
+    text-align: center;
+    color:  #c8e7f0;
+    background-color: #25a2c3;
+    padding: 10%;
+}
+footer p, .cite p, .cite span{
+    color: white;
+}
+
+footer p{
+    font-size: 2em;
+    font-weight: bold;
+}
+footer span{
+    display: inline-block;
+    padding: 2%;
+    font-size: 0.7em;
+}
+footer li{
+    list-style: none;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+#address{
+    text-decoration: none;
+    
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.icons{
+    background-color: white;
+    color: #25a2c3;
+    margin: 1% 1% 0 2%;
+    padding: 0.5%;
+    font-size: 0.8em;
+}
+
+.hr{
+    border-top: 3px solid white;
+	margin: 10% 20%;
+}
